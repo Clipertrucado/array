@@ -35,7 +35,9 @@ namespace array.NewFolder
                 int cantidadElemento = Convert.ToInt32(Console.ReadLine());
                 hola[i] = new ElementoDto(idElemento, codigoElemento, nombreElemento, descripcionElemento, cantidadElemento);
 
-                Console.WriteLine(hola[i]);
+                Console.WriteLine("---------------");
+
+
             }
 
             for (int i = 0; i < hola.Length; i++)
